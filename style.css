@@ -1,4 +1,4 @@
-/* Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -8,14 +8,12 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    padding-top: 80px; /* Prevent content from hiding behind fixed header */
+    padding-top: 80px; 
 }
 
 a {
     text-decoration: none;
 }
-
-/* Header */
 header {
     position: fixed;
     top: 0;
@@ -57,7 +55,7 @@ header {
     color: #00f2fe;
 }
 
-/* Menu Button */
+
 .menu-btn {
     display: none;
     background: none;
@@ -66,8 +64,6 @@ header {
     font-size: 2rem;
     cursor: pointer;
 }
-
-/* Hero Section */
 .hero {
     min-height: calc(100vh - 80px);
 
@@ -94,7 +90,7 @@ header {
     font-size: 1.1rem;
 }
 
-/* CTA Button */
+
 .cta-btn {
     padding: 14px 32px;
     border: none;
@@ -119,7 +115,7 @@ header {
     transform: translateY(-1px);
 }
 
-/* Footer */
+
 footer {
     background: #222;
     color: white;
@@ -146,10 +142,10 @@ footer p {
     color: #00f2fe;
 }
 
-/* Mobile */
+
 @media (max-width: 768px) {
 
-    /* Logo and menu button stay side by side */
+    
     header {
         height: 80px;
         flex-direction: row;
